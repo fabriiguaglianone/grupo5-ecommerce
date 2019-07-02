@@ -4,7 +4,7 @@
  body{
    margin:0;
    font-family: sans-serif;
-   background: #b3cbff;
+   background: #f7f7f7;
  }
  .form-register{
    width: 95%;
@@ -47,6 +47,6 @@ input{
  .btn-enviar{
    background: crimson;
    color: white;
-   margin: auto;  
+   margin: auto;
    padding: 10px 40px;
  }
