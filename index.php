@@ -8,7 +8,7 @@
             rel="stylesheet">
             <link href="https://fonts.googleapis.com/css?family=Rubik+Mono+One&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
-    <title>ANIMA | MARKETING</title>
+    <title>ANIMA  & MARKETING</title>
   </head>
   <body>
 
