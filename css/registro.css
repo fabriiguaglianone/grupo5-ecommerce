@@ -8,7 +8,7 @@
  }
  h1{
    text-align: center;
-   color: white;
+   color: black;
  }
  .form-register{
    width: 95%;
@@ -17,7 +17,9 @@
    background: white;
    border-radius: 8px;
  }
-
+.registro-completo{
+  margin-top: 10%;
+}
  .form_titulo{
   background: deepskyblue;
   color: white;

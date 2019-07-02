@@ -7,6 +7,7 @@
    background: #f7f7f7;
  }
  .form-register{
+
    width: 95%;
    max-width: 500px;
    margin: auto;
@@ -23,7 +24,7 @@
   font-size: 30px;
   border-top-left-radius: 8px;
   border-top-right-radius: 8px;
-  border-bottom: 5px solid crimson;
+  border-bottom: 5px solid lightgray;
  }
 
 .contenedor-inputs{
@@ -49,4 +50,8 @@ input{
    color: white;
    margin: auto;
    padding: 10px 40px;
+ }
+
+ .formulario-completo{
+   margin-top: 20%;
  }

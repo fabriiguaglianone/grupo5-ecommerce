@@ -7,8 +7,8 @@
   </head>
   <body>
     <div class="titulo">
-  <h1>Formulario de registro</h1>
-</div>
+  <h1 >REGISTRACION</h1>
+</div class="registro-completo">
     <form action="registrar.php" method="post" class="form-register">
       <h2 class="form_titulo">Crea una cuenta</h2>
       <div class="contenedor-inputs">
@@ -26,7 +26,7 @@
         <input type="text" name="usuario" value="" placeholder="Nombre de usuario"class="input-half" required>
         <input type="password" name="clave" value=""placeholder="Contraseña"class="input-half" required>
         <input type="submit" name="" value="Registrar" class="btn-enviar">
-        <p class="form__link">¿Ya tienes una cuenta? <a href="index.php">Ingresar</a> </p>
+        <p class="form__link">¿Ya tienes una cuenta? <a href="login.php">Ingresar</a> </p>
 
 
       </div>
