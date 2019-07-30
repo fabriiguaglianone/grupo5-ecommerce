@@ -211,18 +211,7 @@
 
   </div>
 
-  <div >
-    <a href="https://www.google.es/"><img src="x.jpg" width="170" height="85"></a>
-
-  </div>
-
-  <div >
-    <a href="https://www.google.es/"><img src="x.jpg" width="170" height="85"></a>
-
-  </div>
-  <div >
-    <a href="https://www.google.es/"><img src="x.jpg" width="170" height="85"></a>
-  </div>
+  
 </div>
 <div class="proyectos">
   <div >
@@ -236,18 +225,6 @@
 
   </div>
 
-  <div >
-    <a href="https://www.google.es/"><img src="x.jpg" width="170" height="85"></a>
-
-  </div>
-
-  <div >
-    <a href="https://www.google.es/"><img src="x.jpg" width="170" height="85"></a>
-
-  </div>
-  <div >
-    <a href="https://www.google.es/"><img src="x.jpg" width="170" height="85"></a>
-  </div>
 </div>
 <div class="proyectos">
 
@@ -265,15 +242,7 @@
     <a href="https://www.google.es/"><img src="x.jpg" width="170" height="85"></a>
 
   </div>
-  <div >
-    <a href="https://www.google.es/"><img src="x.jpg" width="170" height="85"></a>
-  </div>
-  <div >
-    <a href="https://www.google.es/"><img src="x.jpg" width="170" height="85"></a>
-  </div>
-  <div >
-    <a href="https://www.google.es/"><img src="x.jpg" width="170" height="85"></a>
-  </div>
+
 </div>
 <br />
 <br />
