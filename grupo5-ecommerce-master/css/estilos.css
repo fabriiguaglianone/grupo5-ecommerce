@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+}
+
+*:focus{ outline: none;}
+
+* {
+  font-family: "Arial", Helvetica, sans-serif;
+}
+
+body{
+  background-image: url("https://www.paginasparaweb.com/images/home-bg-slideshow3.jpg");
+}
+
+/* FORMULARIO */
+
+.formSection {
+  padding-top: 38px;
+}
+
+.formSection h1{
+  padding-bottom: 17px;
+  text-align: center;
+}
+
+.formSection label {
+  padding-top: 30px;
+}
+
+.formSection input {
+  display:flex;
+  border: 0;
+  border-bottom: 1px solid black;
+  width: 75%;
+  border-radius: 12px;
+}
+
+.formSection textarea {
+  display: block;
+  width: 100%;
+  border-radius: 12px;
+}
+
+.btn-form {
+  margin: 30px 0;
+  padding: 8px;
+  border-radius: 12px;
+}
+
+select {
+  border-radius: 12px;
+     border: none;
+     font-size: 14px;
+     height: 30px;
+     padding: 5px;
+     width: 250px;
+  }
+
+  div{
+    align-items: center;
+  }
