@@ -52,14 +52,14 @@
   $datos->bindValue(":mail", $mail);
   $datos->bindValue(":password", $password);
 
-  $datos->execute();
+   $datos->execute();
 ?>
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="css/registro.css">
-    <title></title>
+
   </head>
   <body>
     <div class="titulo">
@@ -75,9 +75,11 @@
       <?php if (isset($errors['nombre'])) : ?>
         <p class="errors"><?php echo $errors['nombre'] ?></p>
       <?php endif; ?>
+
       <label for="apellido" id="apellido" class="items">
-        <p>Apellido</p>
+         <p>Apellido</p>
       </label>
+
       <input type="text" name="apellido" value="<?php echo $apellido ?>">
       <?php if (isset($errors['apellido'])) : ?>
         <p class="errors"><?php echo $errors['apellido'] ?></p>
@@ -104,14 +106,15 @@
       <?php if (isset($errors['password'])) : ?>
         <p class="errors"><?php echo $errors['password'] ?></p>
       <?php endif; ?>
-      <label for="confirm" id="confirm" class="items">
+
+      <label for="confirm" id="confirm" class="items" id="rep-contraseña">
         <p>Repetir contraseña</p>
       </label>
       <input type="password" name="confirm" value="<?php echo $confirm ?>">
       <?php if (isset($errors['confirm'])) : ?>
         <p class="errors"><?php echo $errors['confirm'] ?></p>
       <?php endif; ?>
-      <button type="submit" name="button" class="btn btn-success btn-form">Enviar</button>
+      <button type="submit" name="button" class="btn btn-success">Enviar</button>
         <p class="form__link">¿Ya tienes una cuenta? <a href="login.php">Ingresar</a> </p>
       </div>
 

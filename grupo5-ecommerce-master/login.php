@@ -18,36 +18,50 @@ if ($_POST) {
   }
 }
 ?>
-
-<main>
-  <div class="container-fluid sectionHeader">
-    <h1 class="text-center">Iniciar Sesión</h1>
-  </div>
-
-  <div class="container form col-xs-8 col-lg-5 formSection">
-    <form action="" method="post">
-      <label for="mail" id="mail" class="items">
-        <p>E-mail</p>
-      </label>
-      <input type="mail" name="mail" value="">
-      <?php if (isset($errors['mail'])) : ?>
-        <p class="errors"><?php echo $errors['mail'] ?></p>
-      <?php endif; ?>
-
-      <label for="password" id="password" class="items">
-        <p>Contraseña</p>
-      </label>
-      <input type="password" name="password" value="">
-      <?php if (isset($errors['password'])) : ?>
-        <p class="errors"><?php echo $errors['password'] ?></p>
-      <?php endif; ?>
-
-      <button type="submit" name="button" class="btn btn-success btn-form">Acceder</button>
-
-      <div class="createAccount">
-        <p>¿Aún no tienes cuenta?</p>
-        <a href="registro.php">¡Creala ahora!</a>
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/registro.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title></title>
+  </head>
+  <body>
+    <main>
+      <div class="form_titulo">
+        <h1 class="text-center">Iniciar Sesión</h1>
       </div>
-    </form>
-  </div>
-</main>
+      <br>
+
+      <div class="container-fluid col-xs-8 col-lg-5 formSection" >
+        <form action="" method="post" class="form-register">
+          <label for="mail" id="mail" class="items">
+            <p>E-mail</p>
+          </label>
+          <input type="mail" name="mail" value="">
+          <?php if (isset($errors['mail'])) : ?>
+            <p class="errors"><?php echo $errors['mail'] ?></p>
+          <?php endif; ?>
+
+          <br> <br>
+          <label for="password" id="password" class="items">
+            <p>Contraseña</p>
+          </label>
+          <input type="password" name="password" value="">
+          <?php if (isset($errors['password'])) : ?>
+            <p class="errors"><?php echo $errors['password'] ?></p>
+          <?php endif; ?>
+          <br>
+          <br>
+          <button type="submit" name="button" class="btn-enviar ">Acceder</button>
+
+          <div class="createAccount">
+            <p>¿Aún no tienes cuenta?</p>
+            <a href="registro.php">¡Creala ahora!</a>
+          </div>
+        </form>
+      </div>
+
+    </main>
+  </body>
+</html>
