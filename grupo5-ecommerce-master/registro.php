@@ -1,13 +1,11 @@
-<?php require "db.php";
+<?php
+require "db.php";
 
  $errors = [];
 
   $nombre = isset($_POST['nombre']) ? $_POST['nombre'] : "";
   $apellido = isset($_POST['apellido']) ? $_POST['apellido'] : "";
   $mail = isset($_POST['mail']) ? $_POST['mail'] : "";
-  $address = isset($_POST['address']) ? $_POST['address'] : "";
-  $localidad = isset($_POST['localidad']) ? $_POST['localidad'] : "";
-  $tel = isset($_POST['tel']) ? $_POST['tel'] : "";
   $password = isset($_POST['password']) ? $_POST['password'] : "";
   $confirm = isset($_POST['confirm']) ? $_POST['confirm'] : "";
   if ($_POST) {
@@ -46,7 +44,7 @@
 
 <?php
 
-  $datos = $db->prepare('INSERT INTO usuarios values (0, :nombre, :apellido, :mail, :address, :localidad, :tel, :password)');
+  $datos = $db->prepare('INSERT INTO usuarios values (0, :nombre, :apellido, :mail, :password)');
   $datos->bindValue(":nombre", $nombre);
   $datos->bindValue(":apellido", $apellido);
   $datos->bindValue(":mail", $mail);
